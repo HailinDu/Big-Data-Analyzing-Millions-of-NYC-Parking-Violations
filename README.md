@@ -2,6 +2,8 @@
 ### STA9760 - Big Data Technologies
 The purpose of this project is to conduct data visualization analysis to understand Parking and Camera Violation in NYC. We will be going through the process of containerization, terminal navigation, python scripting, artifact deployment and AWS EC2 provisioning. 
 
+![NYC Open Data](https://data.cityofnewyork.us/api/assets/3FF54443-CD9C-4E56-8A20-8D2BD245BD1A?nyclogo300.png)
+
 ### Dataset
 The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016 (Initial dataset loaded 05/14/2016.). New or open violations will be updated weekly (Sunday). [NYC Open Data](https://data.cityofnewyork.us/City-Government/O)
 
