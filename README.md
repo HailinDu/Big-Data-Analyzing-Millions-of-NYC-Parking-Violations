@@ -19,6 +19,8 @@ Develop a python command line interface that will connect to the OPCV API and de
 
 Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 server.
 
+**Docker Architecture**
+![Credit to https://devopedia.org/docker](https://devopedia.org/images/article/101/8323.1565281088.png "credit to devopedia.org")
 ### Using Dockerfile & Running AWS EC2 
 1. Build an image from our dockerfile on your computer:
 
@@ -36,7 +38,10 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
 3. Deploying via Docker Hub:
 
         $ docker push your_username/image_name
-        
+
+**Docker and AWS EC2**
+![Credict to https://dzone.com/articles/how-to-build-a-distributed-load-testing-infrastruc](https://dzone.com/storage/temp/12208584-jmeter-in-aws-ec2.png "credit to Dzone.com by Dragos Campean")
+
 4. Pulling the image from dockerhub and running it in AWS EC2
 
         ~$ sudo docker pull image_name
