@@ -1,12 +1,18 @@
 # Analyzing millions of NYC Parking Violations
-### (STA9760 - Big Data Technologies)
+### STA9760 - Big Data Technologies
+The purpose of this project is to conduct data visualization analysis to understand Parking and Camera Violation in NYC. We will be going through the process of containerization, terminal navigation, python scripting, artifact deployment and AWS EC2 provisioning. 
+
+### Dataset
+The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016 (Initial dataset loaded 05/14/2016.). New or open violations will be updated weekly (Sunday). [NYC Open Data](https://data.cityofnewyork.us/City-Government/O)
+
+### Install & Quickstart
+You will need to install [Docker](https://docs.docker.com/install/), [Docker Compose](https://docs.docker.com/compose/install/), register a [Docker Hub](https://hub.docker.com/) account, create a [Amazon EC2](https://aws.amazon.com/?nc1=h_ls) server account. create a [NYC App Token](https://data.cityofnewyork.us/login) from NYC Open Data.
+
+### Overview
 The project is broken into three parts. 
 1. Part1: Python Scripting
 2. Part2: Loading into ElasticSearch
 3. Part3: Visualizing and Analysis on Kibana
-
-## Dataset
-The Open Parking and Camera Violation dataset is coming from NYC Open Data. 
 
 # Part 1 
 Develop a python command line interface that will connect to the OPCV API and demonstrate that the data is accessible via python. 
