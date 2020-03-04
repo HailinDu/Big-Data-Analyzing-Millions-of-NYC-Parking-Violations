@@ -1,18 +1,19 @@
-# STA9760 Big Data - Analyzing millions of NYC Parking Violations
+# Analyzing millions of NYC Parking Violations
+# (STA9760 - Big Data Technologies)
 The project is broken into three parts. 
-Part1: Python Scripting
-Part2: Loading into ElasticSearch
-Part3: Visualizing and Analysis on Kibana
+1. Part1: Python Scripting
+2. Part2: Loading into ElasticSearch
+3. Part3: Visualizing and Analysis on Kibana
 
-### Dataset
+## Dataset
 The Open Parking and Camera Violation dataset is coming from NYC Open Data. 
 
-## Part1 
+# Part 1 
 Develop a python command line interface that will connect to the OPCV API and demonstrate that the data is accessible via python. 
 
 Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 instance.
 
-# Using Dockerfile
+## Using Dockerfile
 1. Build an image from our dockerfile on your computer:
 
         $ docker build -t image_name . 
