@@ -27,10 +27,11 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
 2. Create a container and run Python script locally. The command line is:
 
         $ docker run -v $(pwd):/app -e APP_KEY=API_Token -t image_name python main.py --page_size=1000 --num_page=4 --output=results.json
-        
-        #--page_size: This command line argument is required. It will ask for how many records to request from the API per call.
-        #--num_pages: This command line argument is optional. If not provided, your script should continue requesting data until the entirety of the content has been exhausted. If this argument is provided, continue querying for data num_pages times.
-        #--output: This command line argument is optional. If not provided, your script should simply print results to stdout. If provided, your script should write the data to the file (in this case, results.json).
+
+**Key Arguments**
+- --page_size: This command line argument is required. It will ask for how many records to request from the API per call.
+- --num_pages: This command line argument is optional. If not provided, your script should continue requesting data until the entirety of the content has been exhausted. If this argument is provided, continue querying for data num_pages times.
+- --output: This command line argument is optional. If not provided, your script should simply print results to stdout. If provided, your script should write the data to the file (in this case, results.json).
         
 3. Deploying via Docker Hub:
 
