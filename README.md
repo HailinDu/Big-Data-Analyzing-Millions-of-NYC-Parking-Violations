@@ -41,9 +41,6 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
 
         $ docker push your_username/image_name
 
-**Docker and AWS EC2**
-![Credict to https://dzone.com/articles/how-to-build-a-distributed-load-testing-infrastruc](https://dzone.com/storage/temp/12208584-jmeter-in-aws-ec2.png "credit to Dzone.com by Dragos Campean")
-
 4. Pulling the image from dockerhub and running it in AWS EC2
 
         ~$ sudo docker pull image_name
