@@ -36,11 +36,11 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
 
         $ docker push your_username/image_name
         
-4. Pulling this image from dockerhub and runing it in AWS EC2
+4. Pulling the image from dockerhub and running it in AWS EC2
 
         ~$ sudo docker pull image_name
         ~$ sudo docker run -it your_username/image_name /bin/bash
         ~$ sudo docker run -e APP_KEY=API_token -it your_username/image_name python main.py --page_size=1000 --num_page=4 --output=results.json
 
-## Part2 :
+## Part 2:
 Coming Soon
