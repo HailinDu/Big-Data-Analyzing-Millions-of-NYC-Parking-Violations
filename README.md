@@ -17,9 +17,9 @@ The project is broken into three parts.
 ## Part 1 
 Develop a python command line interface that will connect to the OPCV API and demonstrate that the data is accessible via python. 
 
-Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 instance.
+Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 server.
 
-### Using Dockerfile
+### Using Dockerfile & Running AWS EC2 
 1. Build an image from our dockerfile on your computer:
 
         $ docker build -t image_name . 
@@ -36,11 +36,11 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
 
         $ docker push your_username/image_name
         
-4. Pulling this image from dockerhub and runing it in AWS EC2 instance:
+4. Pulling this image from dockerhub and runing it in AWS EC2
 
         ~$ sudo docker pull image_name
         ~$ sudo docker run -it your_username/image_name /bin/bash
         ~$ sudo docker run -e APP_KEY=API_token -it your_username/image_name python main.py --page_size=1000 --num_page=4 --output=results.json
 
-## Part2:
+## Part2 :
 Coming Soon
