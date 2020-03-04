@@ -12,11 +12,11 @@ You will need to install [Docker](https://docs.docker.com/install/), [Docker Com
 
 ### Overview
 The project is broken into three parts. 
-1. Part1: Python Scripting
-2. Part2: Loading into ElasticSearch
-3. Part3: Visualizing and Analysis on Kibana
+1. [Part1: Python Scripting (Docker & AWS EC2](#Part1) 
+2. [Part2: Loading into ElasticSearch](#Part2) 
+3. [Part3: Visualizing and Analysis on Kibana](#Part3) 
 
-## Part 1 
+## Part1 
 Develop a python command line interface that will connect to the OPCV API and demonstrate that the data is accessible via python. 
 
 Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 server.
@@ -47,5 +47,8 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
         ~$ sudo docker run -it your_username/image_name /bin/bash
         ~$ sudo docker run -e APP_KEY=API_token -it your_username/image_name python main.py --page_size=1000 --num_page=4 --output=results.json
 
-## Part 2:
+## Part2:
+Coming Soon
+
+## Part3:
 Coming Soon
