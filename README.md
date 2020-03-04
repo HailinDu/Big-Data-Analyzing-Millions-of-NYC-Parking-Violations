@@ -1,5 +1,5 @@
 # Analyzing millions of NYC Parking Violations
-# (STA9760 - Big Data Technologies)
+### (STA9760 - Big Data Technologies)
 The project is broken into three parts. 
 1. Part1: Python Scripting
 2. Part2: Loading into ElasticSearch
