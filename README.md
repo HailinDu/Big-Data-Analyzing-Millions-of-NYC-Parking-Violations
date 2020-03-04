@@ -14,12 +14,12 @@ The project is broken into three parts.
 2. Part2: Loading into ElasticSearch
 3. Part3: Visualizing and Analysis on Kibana
 
-# Part 1 
+## Part 1 
 Develop a python command line interface that will connect to the OPCV API and demonstrate that the data is accessible via python. 
 
 Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 instance.
 
-## Using Dockerfile
+### Using Dockerfile
 1. Build an image from our dockerfile on your computer:
 
         $ docker build -t image_name . 
