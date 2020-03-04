@@ -8,7 +8,7 @@ The purpose of this project is to conduct data visualization analysis to underst
 The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016 (Initial dataset loaded 05/14/2016.). New or open violations will be updated weekly (Sunday). [NYC Open Data](https://data.cityofnewyork.us/City-Government/O)
 
 ### Install & Quickstart
-You will need to install [Docker](https://docs.docker.com/install/), [Docker Compose](https://docs.docker.com/compose/install/), register a [Docker Hub](https://hub.docker.com/) account, create a [Amazon EC2](https://aws.amazon.com/?nc1=h_ls) server account. create a [NYC App Token](https://data.cityofnewyork.us/login) from NYC Open Data.
+You will need to install [Docker](https://docs.docker.com/install/), [Docker Compose](https://docs.docker.com/compose/install/), register a [Docker Hub](https://hub.docker.com/) account, create a [Amazon EC2](https://aws.amazon.com/?nc1=h_ls) server account and set up a AWS EC2 instance. create a [NYC App Token](https://data.cityofnewyork.us/login) from NYC Open Data.
 
 ### Overview
 The project is broken into three parts. 
