@@ -12,7 +12,7 @@ You will need to install [Docker](https://docs.docker.com/install/), [Docker Com
 
 ### Overview
 The project is broken into three parts. 
-1. [Part1: Python Scripting (Docker & AWS EC2](#Part1) 
+1. [Part1: Python Scripting (Docker & AWS EC2)](#Part1) 
 2. [Part2: Loading into ElasticSearch](#Part2) 
 3. [Part3: Visualizing and Analysis on Kibana](#Part3) 
 
