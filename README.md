@@ -99,5 +99,9 @@ Here are some data visualization examples:
 **Bar Chart - Number of Violation By County**
 ![Bar Chart](/Part_3/Bar_Chart.png)
 
-**Line Chart - Number of Violation Per Monthly
+**Line Chart - Number of Violation Per Monthly**
 !![Line Chart](/Part_3/Line_Chart.png)
+
+**Dashboard**
+!![Dashboard](/Part_3/Dashboard.png)
+
