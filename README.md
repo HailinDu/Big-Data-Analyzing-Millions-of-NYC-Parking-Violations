@@ -77,7 +77,11 @@ You must update your original script (from Part_1) to now not only download the 
 3. Interact at Interface
 
         $ docker-compose run -e APP_KEY=API_token -v ${PWD}:/app pyth python -m main --page_size=100 --num_pages=10 --output=results.json --push_elastic=True
+        
+4. Query ElasticSearch
 
+        $ curl -o output.txt http://localhost:9200/opcv/_search?q=state:NY&size=10
+ 
 You have successfully pushed to ElasticSearch
 
 ## Part3: Visualizing and Analysis on Kibana
