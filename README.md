@@ -85,10 +85,10 @@ You now can visualize and analyze data in Kibana by accessing http://localhost:5
 
 Then you will go to the `Management` tab, define your Index pattern using `indices`, and use Time Filter using `issue_data`
 
-### Click on the `Discover` tab to see your data
+### `Discover` Tab to See Your Data
 ![Discover Tab](/Part_3/Discover.png)
 
-### Click on the `Visualize` tab to create visualization
+### `Visualize` Tab to Create Visualization
 Here are some data visualization examples:
 **Horizontal Bar Chart - Average Reduction Amount By County**
 ![Horizontal Bar Chart](/Part_3/Horizontal_Bar_Chart.png)
@@ -102,7 +102,7 @@ Here are some data visualization examples:
 **Line Chart - Number of Violation Per Monthly**
 ![Line Chart](/Part_3/Line_Chart.png)
 
-### Click on the Dashboard tab to combine your data visualization
+### `Dashboard` Tab to Combine Your Data Visualization
 **Dashboard**
 ![Dashboard](/Part_3/Dashboard.png)
 
