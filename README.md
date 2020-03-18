@@ -53,12 +53,12 @@ In this part, you will leverage docker-compose to bring up a service that encaps
 You must update your original script (from Part_1) to now not only download the data but also load it into the elasticsearch instance.
 
 ### Updating the Script:
-Under Part_2/bigdata1 folder
+**Under Part_2/bigdata1 folder**
 1. create docker-compose.yml - include three images/servcies (python, elasticsearch, kibana) to interact with your container 
 1. requirements.txt - add elasticsearch
 1. main.py - add 'push_elastic' arugement and pass it to the `call_api function`
 
-Under Part2/bigdata1/src/bigdata1 folder  
+**Under Part2/bigdata1/src/bigdata1 folder** 
 * callapi.py add:
    * import `Elasticsearch` and `datetime, date`  
    * add `create_update_index()` function - create an elasticsearch index to store data
@@ -90,6 +90,7 @@ Then you will go to the `Management` tab, define your Index pattern using `indic
 
 ### `Visualize` Tab to Create Visualization
 Here are some data visualization examples:
+
 **Horizontal Bar Chart - Average Reduction Amount By County**
 ![Horizontal Bar Chart](/Part_3/Horizontal_Bar_Chart.png)
 
