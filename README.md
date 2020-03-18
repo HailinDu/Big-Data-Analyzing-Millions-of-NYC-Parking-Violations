@@ -54,7 +54,7 @@ You must update your original script (from Part_1) to now not only download the 
 
 ### Updating the Script:
 Under Part_2/bigdata1 folder
-1. create docker-compose.yml - include three containers (python, elasticsearch, kibana) to interact with your container 
+1. create docker-compose.yml - include three images/servcies (python, elasticsearch, kibana) to interact with your container 
 1. requirements.txt - add elasticsearch
 1. main.py - add 'push_elastic' arugement and pass it to the `call_api function`
 
@@ -65,5 +65,22 @@ Under Part2/bigdata1/src/bigdata1 folder
    1. add `format_push_data()` function - format python data type and push to elasticsearch
    1. update `call_api` function - takes argument from the interface (main.py)
 
-## Part3:
-Coming Soon
+### Use Docker-Compose to Run ElasticSearch and Kibana Locally
+1. Build ElasticSearch and Kibana (Create Images):
+
+        $ docker-compose build pyth
+
+2. Run ElasticSearch and Kibana (Run Services):
+
+        $ docker-compose up -d
+        
+3. Interact at Interface
+
+        $ docker-compose run -e APP_KEY=API_token -v ${PWD}:/app pyth python -m main --page_size=100 --num_pages=10 --output=results.json --push_elastic=True
+
+You have successfully pushed to ElasticSearch
+
+## Part3: Visualizing and Analysis on Kibana
+You now can visualize and analyze data in Kibana
+
+Here are some examples:
