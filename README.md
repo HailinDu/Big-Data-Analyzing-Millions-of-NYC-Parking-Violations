@@ -90,6 +90,14 @@ Click on the Discover tab to see your data
 ![Discover Tab](/Part_3/Discover.png)
 
 Here are some data visualization examples:
-**Horizontal Bar Chart - Average Reduction Amount By County
+**Horizontal Bar Chart - Average Reduction Amount By County**
 ![Horizontal Bar Chart](/Part_3/Horizontal_Bar_Chart.png)
 
+**Pie Chart - Top 10 Violation Type
+![Pie Chart](/Part_3/Pie_Chart.png)
+
+**Bar Chart - Number of Violation By County**
+![Bar Chart](/Part_3/Bar_Chart.png)
+
+**Line Chart - Number of Violation Per Monthly
+!![Line Chart](/Part_3/Line_Chart.png)
