@@ -82,6 +82,9 @@ You must update your original script (from Part_1) to now not only download the 
 
         $ curl -o output.txt http://localhost:9200/opcv/_search?q=state:NY&size=10
  
+- Return 10 records where state is NY 
+- output.txt will be generated under Part_2/bigdata1
+ 
 You have successfully pushed to ElasticSearch
 
 ## Part3: Visualizing and Analysis on Kibana
