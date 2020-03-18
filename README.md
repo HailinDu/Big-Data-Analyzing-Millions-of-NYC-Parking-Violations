@@ -56,7 +56,7 @@ You must update your original script (from Part_1) to now not only download the 
 **Under Part_2/bigdata1 folder**
 1. create docker-compose.yml - include three images/servcies (python, elasticsearch, kibana) to interact with your container 
 1. requirements.txt - add elasticsearch
-1. main.py - add 'push_elastic' arugement and pass it to the `call_api function`
+1. main.py - add 'push_elastic' argument and pass it to the `call_api function`
 
 **Under Part2/bigdata1/src/bigdata1 folder** 
 * callapi.py add:
