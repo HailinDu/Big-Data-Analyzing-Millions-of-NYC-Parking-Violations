@@ -83,25 +83,26 @@ You have successfully pushed to ElasticSearch
 ## Part3: Visualizing and Analysis on Kibana
 You now can visualize and analyze data in Kibana by accessing http://localhost:5601/app/kibana
 
-Then you will go to the Management tab, define your Index pattern using indices, and use Time Filter using `issue_data`
+Then you will go to the `Management` tab, define your Index pattern using `indices`, and use Time Filter using `issue_data`
 
-Click on the Discover tab to see your data
-
+### Click on the `Discover` tab to see your data
 ![Discover Tab](/Part_3/Discover.png)
 
+### Click on the `Visualize` tab to create visualization
 Here are some data visualization examples:
 **Horizontal Bar Chart - Average Reduction Amount By County**
 ![Horizontal Bar Chart](/Part_3/Horizontal_Bar_Chart.png)
 
-**Pie Chart - Top 10 Violation Type
+**Pie Chart - Top 10 Violation Type**
 ![Pie Chart](/Part_3/Pie_Chart.png)
 
 **Bar Chart - Number of Violation By County**
 ![Bar Chart](/Part_3/Bar_Chart.png)
 
 **Line Chart - Number of Violation Per Monthly**
-!![Line Chart](/Part_3/Line_Chart.png)
+![Line Chart](/Part_3/Line_Chart.png)
 
+### Click on the Dashboard tab to combine your data visualization
 **Dashboard**
-!![Dashboard](/Part_3/Dashboard.png)
+![Dashboard](/Part_3/Dashboard.png)
 
