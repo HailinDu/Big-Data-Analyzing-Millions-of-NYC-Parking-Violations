@@ -16,7 +16,7 @@ The project is broken into three parts.
 2. [Part2: Loading into ElasticSearch](#Part2) 
 3. [Part3: Visualizing and Analysis on Kibana](#Part3) 
 
-## Part1 
+## Part1: Python Scripting
 Develop a python command line interface that will connect to the OPCV API and demonstrate that the data is accessible via python. 
 
 Build image from Dockerfile and push the image to Docker Hub. Lastly, run the image in AWS EC2 server.
@@ -47,8 +47,23 @@ Build image from Dockerfile and push the image to Docker Hub. Lastly, run the im
         ~$ sudo docker run -it your_username/image_name /bin/bash
         ~$ sudo docker run -e APP_KEY=API_token -it your_username/image_name python main.py --page_size=1000 --num_page=4 --output=results.json
 
-## Part2:
-Coming Soon
+## Part2: Loading into ElasticSearch
+In this part, you will leverage docker-compose to bring up a service that encapsulates your bigdata1 container and an elasticsearch container and ensures that they are able to interact. 
+
+You must update your original script (from Part_1) to now not only download the data but also load it into the elasticsearch instance.
+
+### Updating the Script:
+Under Part_2/bigdata1 folder
+1. create docker-compose.yml - include three containers (python, elasticsearch, kibana) to interact with your container 
+1. requirements.txt - add elasticsearch
+1. main.py - add 'push_elastic' arugement and pass it to the `call_api function`
+
+Under Part2/bigdata1/src/bigdata1 folder  
+1. callapi.py add:
+   1. import `Elasticsearch` and `datetime, date`  
+   1. add `create_update_index()` function - create an elasticsearch index to store data
+   1. add `format_push_data()` function - format python data type and push to elasticsearch
+   1. update `call_api` function - takes argument from the interface (main.py)
 
 ## Part3:
 Coming Soon
