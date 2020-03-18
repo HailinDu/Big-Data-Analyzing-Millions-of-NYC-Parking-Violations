@@ -59,11 +59,11 @@ Under Part_2/bigdata1 folder
 1. main.py - add 'push_elastic' arugement and pass it to the `call_api function`
 
 Under Part2/bigdata1/src/bigdata1 folder  
-1. callapi.py add:
-   1. import `Elasticsearch` and `datetime, date`  
-   1. add `create_update_index()` function - create an elasticsearch index to store data
-   1. add `format_push_data()` function - format python data type and push to elasticsearch
-   1. update `call_api` function - takes argument from the interface (main.py)
+* callapi.py add:
+   * import `Elasticsearch` and `datetime, date`  
+   * add `create_update_index()` function - create an elasticsearch index to store data
+   * add `format_push_data()` function - format python data type and push to elasticsearch
+   * update `call_api` function - takes argument from the interface (main.py)
 
 ### Use Docker-Compose to Run ElasticSearch and Kibana Locally
 1. Build ElasticSearch and Kibana (Create Images):
@@ -81,6 +81,11 @@ Under Part2/bigdata1/src/bigdata1 folder
 You have successfully pushed to ElasticSearch
 
 ## Part3: Visualizing and Analysis on Kibana
-You now can visualize and analyze data in Kibana
+You now can visualize and analyze data in Kibana by accessing http://localhost:5601/app/kibana
+
+Then you will go to the Management tab, define your Index pattern using indices, and use Time Filter using `issue_data`
+
+Click the Discover tab you will see your data
+
 
 Here are some examples:
